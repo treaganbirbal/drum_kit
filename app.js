@@ -1,3 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('connect')
+    window.addEventListener('keydown', (event) => {
+        console.log(event.keyCode)
+    })
 })
